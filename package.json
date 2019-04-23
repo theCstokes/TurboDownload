@@ -1,0 +1,32 @@
+{
+  "name": "turbodownload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "test": "jest dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://thecstokes@bitbucket.org/thecstokes/turbodownload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/thecstokes/turbodownload#readme",
+  "dependencies": {
+    "app-module-path": "^2.2.0",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "@types/app-module-path": "^2.2.0",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.7",
+    "@types/yargs": "^13.0.0",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  }
+}
